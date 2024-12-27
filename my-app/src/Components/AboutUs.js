@@ -1,6 +1,6 @@
 function AboutUs() {
     return (
-        <div>
+      <div className= "container">
         We are a hiking club
       </div>
     )

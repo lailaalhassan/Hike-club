@@ -1,13 +1,13 @@
 function Contact() {
-    return (
-      <div>
-       
-        Address: 123 London Road,
-                 London
-                 WC1 1AB
-        Email: admin@hikeclub.com
-        
-      </div>
-    )
-  }
+  return (
+    <div className="container">
+      <p>
+        Address: 123 London Road,<br />
+        London<br />
+        WC1 1AB<br />
+        Email: admin@hikeclub.com<br />
+      </p>
+    </div>
+  );
+}
 export default Contact;
