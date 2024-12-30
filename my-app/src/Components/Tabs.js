@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import Home from "./Home";
-import Contact from "./Contact";
+import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
+import Trails from "./Trails";
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 const TABS = {
   'home': <Home />,
   'about us': <AboutUs />,
-  'contact': <Contact />
+  'trails': <Trails />,
+  'contact us': <ContactUs />
 };
 
-const TAB_NAMES = ['home', 'about us', 'contact'];
+const TAB_NAMES = ['home', 'about us', 'trails', 'contact us'];
 
 function Tabs() {
   const [selectedTab, setSelectedTab] = useState('home');

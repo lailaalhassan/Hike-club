@@ -1,4 +1,4 @@
-function Contact() {
+function ContactUs() {
   return (
     <div className="container">
       <p>
@@ -10,4 +10,4 @@ function Contact() {
     </div>
   );
 }
-export default Contact;
+export default ContactUs;
