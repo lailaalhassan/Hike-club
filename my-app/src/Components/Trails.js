@@ -1,21 +1,62 @@
 function Trails() {
     return (
+      <><div className="container">
         <form>
-        <div className="mb-3">
-          <label for="exampleInputEmail1" className="form-label">Email address</label>
-          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-          <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div className="mb-3">
-          <label for="exampleInputPassword1" className="form-label">Password</label>
-          <input type="password" className="form-control" id="exampleInputPassword1"/>
-        </div>
-        <div className="mb-3 form-check">
-          <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-          <label className="form-check-label" for="exampleCheck1">Sign up to the newsletter</label>
-        </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
-      </form>
+          <div className="mb-3">
+            <label for="exampleInputEmail1" className="form-label">Email address</label>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div className="mb-3">
+            <label for="exampleInputPassword1" className="form-label">Password</label>
+            <input type="password" className="form-control" id="exampleInputPassword1" />
+          </div>
+          <button type="submit" className="btn btn-primary">Submit</button>
+        </form>
+      </div><div className="container">
+      <form className="row g-3">
+      <div className="col-md-6">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name"/>
+  </div>
+  <div class="col-md-6">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"/>
+    </div>
+  <div className="col-md-6">
+    <label for="inputEmail4" className="form-label">Email</label>
+    <input type="email" className="form-control" id="inputEmail4"/>
+  </div>
+  <div className="col-md-6">
+    <label for="inputPassword4" className="form-label">Password</label>
+    <input type="password" className="form-control" id="inputPassword4"/>
+  </div>
+  <div className="col-12">
+    <label for="inputAddress" className="form-label">Address</label>
+    <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
+  </div>
+  <div className="col-12">
+    <label for="inputAddress2" className="form-label">Address 2</label>
+    <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
+  </div>
+  <div className="col-md-6">
+    <label for="inputCity" className="form-label">City</label>
+    <input type="text" className="form-control" id="inputCity"/>
+  </div>
+  <div className="col-md-4">
+    <label for="inputZip" class="form-label">Postcode</label>
+    <input type="text" class="form-control" id="inputZip"/>
+  </div>
+  <div className="col-12">
+    <div className="form-check">
+      <input className="form-check-input" type="checkbox" id="gridCheck"/>
+      <label className="form-check-label" for="gridCheck">
+      Sign up to the newsletter
+      </label>
+    </div>
+  </div>
+  <div className="col-12">
+    <button type="submit" className="btn btn-primary">Sign Up</button>
+  </div>
+</form></div></>
     );
   }
   export default Trails;
