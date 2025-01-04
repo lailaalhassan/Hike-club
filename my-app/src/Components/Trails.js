@@ -30,26 +30,10 @@ function Trails() {
     <input type="password" className="form-control" id="inputPassword4"/>
   </div>
   <div className="col-12">
-    <label for="inputAddress" className="form-label">Address</label>
-    <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
-  </div>
-  <div className="col-12">
-    <label for="inputAddress2" className="form-label">Address 2</label>
-    <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
-  </div>
-  <div className="col-md-6">
-    <label for="inputCity" className="form-label">City</label>
-    <input type="text" className="form-control" id="inputCity"/>
-  </div>
-  <div className="col-md-4">
-    <label for="inputZip" class="form-label">Postcode</label>
-    <input type="text" class="form-control" id="inputZip"/>
-  </div>
-  <div className="col-12">
     <div className="form-check">
       <input className="form-check-input" type="checkbox" id="gridCheck"/>
       <label className="form-check-label" for="gridCheck">
-      Sign up to the newsletter
+     Agree to terms and conditions
       </label>
     </div>
   </div>
